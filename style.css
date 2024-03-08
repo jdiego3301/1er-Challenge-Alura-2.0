@@ -1,0 +1,162 @@
+body{
+    height: 100%;
+    background-color: #F3F5FC;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+.logo{
+    position: relative;
+    width: 120px;
+    height: 48px;
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+}
+.contenedor-caja-texto{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    padding-left: 100px;
+    
+}
+.cajatexto{
+    border: none;
+    width: 680px;
+    height: 288px;
+    top: 168px;
+    left: 240px;
+    background-color: #F3F5FC;
+    color: darkblue;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    resize: none;
+}
+.cajatexto::placeholder{
+    color: darkblue;
+}
+
+.alerta{
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    top: 800px;
+    left: 240px;
+    gap: 8px;
+    font-size: 12px;
+}
+.contenedor-botones{
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    top: 885px;
+    left: 240px;
+    gap: 24px;
+}
+.boton-encriptar{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    background: #0A3871;
+    color: white;
+    cursor: pointer;
+}
+
+.boton-desencriptar{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px;
+    gap: 8px;
+    background: #D8DFE8;
+    color: #0A3871;
+    cursor: pointer;
+}
+.contenedor-resultado{
+    position: absolute;
+    bottom: 410px;
+    width: 320px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+    width: 336px;
+    height: 781px;
+    top: 72px;
+    left: 1032px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 36px;
+    color: #0A3871;
+    
+}
+
+.contenedor-parrafo{
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    top: 50px;
+    left: 1060px;
+    gap: 16px;
+    color: #495057;
+}
+h3{
+    width: 336px;
+    height: 58px;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    top: 550px;
+    position: absolute;
+}
+.ingresa-texto{
+    width: 336px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    top: 700px;
+}
+
+.boton-copiar{
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    top: 885px;
+    left: 1060px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px;
+    gap: 8px;
+    background: #D8DFE8;
+    color: #0A3871;
+    cursor: pointer;
+}
+.ocultar{
+    display: none;
+}
+.contenedor-muneco{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    
+}
+.muneco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    top: 150px;
+    left: 5px;
+}
